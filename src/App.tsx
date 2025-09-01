@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import PeopleToFollow from "./components/PeopleToFollow";
+import TrendList from "./components/TrendList";
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
       
       <div className="w-[30%]"></div>
        <PeopleToFollow />
+       <TrendList />
      </div>
     </div>
   )
